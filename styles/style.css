@@ -46,7 +46,11 @@ body {
 }
 
 .cart-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
   margin-right: 5px;
+  vertical-align: middle;
 }
 
 /* banner section */
@@ -162,3 +166,268 @@ body {
   text-transform: uppercase;
   font-size: 0.9rem;
 }
+
+
+/* Lover Section */
+.lover-section {
+  padding: 60px 20px;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 50px auto;
+  background-color: white;
+}
+
+.image-section {
+  position: relative;
+  flex: 1;
+  max-width: 100%;
+}
+
+.background-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+.text-section {
+  flex: 1;
+  padding: 40px;
+}
+
+.text-section h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.text-section ul {
+  padding-left: 20px;
+  list-style-type: disc;
+  color: #555;
+}
+
+.text-section li {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Deals Section */
+.deals-section {
+  padding: 60px 20px;
+}
+
+.deals-header {
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto 40px;
+}
+
+.deals-header h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.deals-header h2 span {
+  color: orange;
+}
+
+.deals-grid {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.deal-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+  min-width: 250px;
+  max-width: 300px;
+}
+
+.deal-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.deal-card img {
+  width: 100%;
+  display: block;
+}
+
+.deal-text {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+.deal-text.top {
+  top: 20px;
+  left: 20px;
+}
+
+.deal-text.bottom {
+  bottom: 20px;
+  left: 20px;
+  background-color: black;
+}
+
+.deal-card.large {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+}
+
+.deal-text.center-top {
+  top: 40%;
+  left: 10%;
+  font-size: 24px;
+}
+
+.deal-text.center-bottom {
+  top: 55%;
+  left: 10%;
+  background-color: black;
+}
+
+/* Subscription Section */
+.subscribe-section {
+  background-image: url(/Images/news-letter-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  padding: 100px 20px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subscribe-overlay {
+  /* Remove white box background */
+  background-color: transparent;
+  padding: 0;
+  max-width: 800px;
+}
+
+.subscribe-overlay h2 {
+  font-size: 42px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  /*align-items: center;*/
+  gap: 0;
+  max-width: 830px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.subscribe-form input[type="email"] {
+  flex: 1;
+  padding: 18px 25px; /* Increased padding */
+  border: none;
+  font-size: 16px;
+  outline: none;
+}
+
+.subscribe-form button {
+  background-color: #f26522; /* Orange */
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.subscribe-form button:hover {
+  background-color: #d94e0f;
+}
+
+
+/* Footer */
+.footer {
+  background-color: white;
+  padding: 50px 160px;
+}
+
+.footer-container {
+  max-width: 1120px;
+  max-height: 248px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 130px;
+}
+
+.footer-left {
+  flex: 1;
+  width: 359px;
+  height: 179px;
+  gap: 32px;
+}
+
+.footer-left .logo {
+  width: 120px;
+  margin-bottom: 32px;
+}
+
+.footer-left p {
+  max-width: 300px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.footer-links {
+  display: flex;
+  gap: 40px;
+  flex: 2;
+  min-width: 300px;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.footer-column a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.footer-social {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.footer-social img {
+  width: 36px;
+  height: 36px;
+}
+
