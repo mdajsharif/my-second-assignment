@@ -116,8 +116,7 @@ box-sizing: border-box;
     grid-template-columns: repeat(4,1fr);
     gap: 20px;
     max-width: 270px;
-   
-     max-width: 100%;
+    max-width: 100%;
     
 }
 .plant-card img{
@@ -244,14 +243,14 @@ box-sizing: border-box;
 .zabo-plant-text h1{
   font-size: 32px;
 }
-/* ................................................colorful-brance section ...............................*/
-.colorful-brance {
+/*Join the Colorful Bunch*/
+.colorful-bunch {
   position: relative;
   margin-top: 150px;
   
   
 }
-.colorful-brance img{
+.colorful-bunch img{
   width: 100%;
   display: block;
   height: 100%;
@@ -260,13 +259,13 @@ box-sizing: border-box;
 .brance-text{
   position: relative;
 }
-.colorful-brance h1{
+.colorful-bunch h1{
   color: #F5F8FF;
   text-align: center;
   font-size: 50px;
   margin-bottom: 20px;
 }
-.brance-details{
+.bunch-details{
  
   position: absolute;
   top: 50%;
@@ -295,7 +294,7 @@ box-sizing: border-box;
 }
 
 
-/* ....................................................footer section design........................... */
+/* footer section design*/
 .footer-section{
   margin-top: 80px;
 }
@@ -324,22 +323,17 @@ box-sizing: border-box;
      
       color: grey;
 }
-
+/*social links*/
 .social-media {
  display: flex;
- gap: 30px;
+ gap: 32px;
  justify-items: baseline;
 
 }
 
-.twitter{
-  height: 20px;
-  width: auto;
-  margin-top: 8px;
- 
-}
-/* .................................................responsive............................................ */
+/*responsive*/
 
+/*navbar hero section*/
 @media screen and (max-width:576px){
     .nav-list li:nth-child(1),
     .nav-list li:nth-child(2),
@@ -380,16 +374,12 @@ box-sizing: border-box;
     margin: 0;
     font-size: 14px;
 }
-/* .................................plants section....................... */
+/*plants section*/
 
 .plant-grid{
-    
     grid-template-columns: repeat(2,1fr);
     gap: 10px;
-    
     margin-right: 10px;
-  
-    
 }
 
 .plants h2,.deals h2
@@ -433,7 +423,7 @@ box-sizing: border-box;
     margin: 10px;
   }
 
-  /* ................................latest deal section .......................*/
+  /* Flower & Plants */
   .latest-deal{
     flex-direction: column;
     margin-top: 50px;
@@ -452,11 +442,11 @@ box-sizing: border-box;
   margin-right: 10px;
 }
 
-/* ......................................colorful brance section design................. */
-.colorful-brance{
+/*Join the Colorful Bunch*/
+.colorful-bunch{
  margin-top: 15px;
 }
- .colorful-brance h1 {
+ .colorful-bunch h1 {
   font-size: 20px ;
   
  }
@@ -474,14 +464,14 @@ box-sizing: border-box;
   font-size: 12px;
 
  }
-.colorful-brance img{
+.colorful-bunch img{
   height: 200px;
 }
    .subscribe-box {
     max-width: 80%;
     
    }
-/* ..............................................footer section................. */
+/*footer section*/
 
 .grid-display{
   display: grid;
@@ -496,5 +486,3 @@ box-sizing: border-box;
   margin-top: 30px;
 }
 }
-
-/*................................................. complete......................... */
