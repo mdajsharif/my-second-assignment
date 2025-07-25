@@ -97,7 +97,7 @@ box-sizing: border-box;
  
 }
 
-/* ..........................................our plants section .................................*/
+/*Plant Section & Card Section*/
 .plants {
   padding: 50px;
   text-align: center;
@@ -156,7 +156,7 @@ box-sizing: border-box;
     background-color: #722c04;
 }
 
-/* .....................................flower lover section............................... */
+/*Flower & Plants*/
 
 .lover-img {
   position: relative;
@@ -168,13 +168,6 @@ box-sizing: border-box;
   display: block; 
 }
 
-.overlay-img {
-  position: absolute;
-  top: -80px;       
-  right: -70px;      
-  width: 40%;  
-  height: auto;
-}
 .lover-section{
     display: flex;
     margin-top: 150px;
@@ -192,21 +185,9 @@ box-sizing: border-box;
    
     font-size: 22px;
 }
-/* ..............................................animation ...................*/
- @keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
 
-.spin-animation {
-  animation: spin 3s linear infinite;
-}
 
-/*...................................................... latest deal section ..........................*/
+/*Latest Deals*/
 .deals h2{
   text-align: center;
   font-size: 3.1rem;
